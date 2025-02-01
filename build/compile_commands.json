@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/Sky-Aos.dir/Sky-Aos.cpp.o -c /home/fly/Desktop/SkyLands/Sky-Aos.cpp",
+  "file": "/home/fly/Desktop/SkyLands/Sky-Aos.cpp",
+  "output": "CMakeFiles/Sky-Aos.dir/Sky-Aos.cpp.o"
+}
+]

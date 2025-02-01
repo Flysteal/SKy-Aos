@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSky-Aos.a "CMakeFiles/Sky-Aos.dir/Sky-Aos.cpp.o"
+/usr/bin/ranlib libSky-Aos.a
