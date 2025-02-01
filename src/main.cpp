@@ -33,9 +33,9 @@ int main()
 
 
 	// Generates Shader object using shaders default.vert and default.frag
-	Shader shaderProgram("/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/Resourcefiles/Shader/default.vert",  "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/Resourcefiles/Shader/default.frag");
+	Shader shaderProgram("/home/fly/Desktop/SkyLands/rsc/shader/default.vert",  "/home/fly/Desktop/SkyLands/rsc/shader/default.frag");
     //for outline
-    Shader outliningProgram("/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/Resourcefiles/Shader/outlining.vert", "/media/fly/o-o/GitHub/Flysteal/SKY-t5/SKY_LANDS/Resourcefiles/Shader/outlining.frag");
+    Shader outliningProgram("/home/fly/Desktop/SkyLands/rsc/shader/outlining.vert", "/home/fly/Desktop/SkyLands/rsc/shader/outlining.frag");
 
 
     glm::vec4 lightColor = glm::vec4(1.0f, 1.0f, 1.0f, 1.0f);
@@ -51,7 +51,7 @@ int main()
 
     
 
-    glfwSwapInterval(false); //vsync on 
+    glfwSwapInterval(true); //vsync on 
     glEnable(GL_DEPTH_TEST);// what is closer then others
     //do not use!! .. 
     //glDepthFunc(GL_LESS);
@@ -82,7 +82,7 @@ int main()
 
 	
 	// Load in a model
-	Model model("/SKY_LANDS/Resourcefiles/models/map/scene.gltf");
+	Model model("/home/fly/Desktop/SkyLands/rsc/models/map/scene.gltf");
 
     while (!glfwWindowShouldClose(window))
     {

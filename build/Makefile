@@ -117,24 +117,216 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SkyAos
+# Target rules for targets named SKY_LANDS
 
 # Build rule for target.
-SkyAos: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SkyAos
-.PHONY : SkyAos
+SKY_LANDS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SKY_LANDS
+.PHONY : SKY_LANDS
 
 # fast build rule for target.
-SkyAos/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/build
-.PHONY : SkyAos/fast
+SKY_LANDS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/build
+.PHONY : SKY_LANDS/fast
+
+src/Camera.o: src/Camera.cpp.o
+.PHONY : src/Camera.o
+
+# target to build an object file
+src/Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Camera.cpp.o
+.PHONY : src/Camera.cpp.o
+
+src/Camera.i: src/Camera.cpp.i
+.PHONY : src/Camera.i
+
+# target to preprocess a source file
+src/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Camera.cpp.i
+.PHONY : src/Camera.cpp.i
+
+src/Camera.s: src/Camera.cpp.s
+.PHONY : src/Camera.s
+
+# target to generate assembly for a file
+src/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Camera.cpp.s
+.PHONY : src/Camera.cpp.s
+
+src/EBO.o: src/EBO.cpp.o
+.PHONY : src/EBO.o
+
+# target to build an object file
+src/EBO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o
+.PHONY : src/EBO.cpp.o
+
+src/EBO.i: src/EBO.cpp.i
+.PHONY : src/EBO.i
+
+# target to preprocess a source file
+src/EBO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.i
+.PHONY : src/EBO.cpp.i
+
+src/EBO.s: src/EBO.cpp.s
+.PHONY : src/EBO.s
+
+# target to generate assembly for a file
+src/EBO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.s
+.PHONY : src/EBO.cpp.s
+
+src/Mesh.o: src/Mesh.cpp.o
+.PHONY : src/Mesh.o
+
+# target to build an object file
+src/Mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Mesh.cpp.o
+.PHONY : src/Mesh.cpp.o
+
+src/Mesh.i: src/Mesh.cpp.i
+.PHONY : src/Mesh.i
+
+# target to preprocess a source file
+src/Mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Mesh.cpp.i
+.PHONY : src/Mesh.cpp.i
+
+src/Mesh.s: src/Mesh.cpp.s
+.PHONY : src/Mesh.s
+
+# target to generate assembly for a file
+src/Mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Mesh.cpp.s
+.PHONY : src/Mesh.cpp.s
+
+src/Model.o: src/Model.cpp.o
+.PHONY : src/Model.o
+
+# target to build an object file
+src/Model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Model.cpp.o
+.PHONY : src/Model.cpp.o
+
+src/Model.i: src/Model.cpp.i
+.PHONY : src/Model.i
+
+# target to preprocess a source file
+src/Model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Model.cpp.i
+.PHONY : src/Model.cpp.i
+
+src/Model.s: src/Model.cpp.s
+.PHONY : src/Model.s
+
+# target to generate assembly for a file
+src/Model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Model.cpp.s
+.PHONY : src/Model.cpp.s
+
+src/Texture.o: src/Texture.cpp.o
+.PHONY : src/Texture.o
+
+# target to build an object file
+src/Texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.o
+.PHONY : src/Texture.cpp.o
+
+src/Texture.i: src/Texture.cpp.i
+.PHONY : src/Texture.i
+
+# target to preprocess a source file
+src/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.i
+.PHONY : src/Texture.cpp.i
+
+src/Texture.s: src/Texture.cpp.s
+.PHONY : src/Texture.s
+
+# target to generate assembly for a file
+src/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.s
+.PHONY : src/Texture.cpp.s
+
+src/VAO.o: src/VAO.cpp.o
+.PHONY : src/VAO.o
+
+# target to build an object file
+src/VAO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o
+.PHONY : src/VAO.cpp.o
+
+src/VAO.i: src/VAO.cpp.i
+.PHONY : src/VAO.i
+
+# target to preprocess a source file
+src/VAO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.i
+.PHONY : src/VAO.cpp.i
+
+src/VAO.s: src/VAO.cpp.s
+.PHONY : src/VAO.s
+
+# target to generate assembly for a file
+src/VAO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.s
+.PHONY : src/VAO.cpp.s
+
+src/VBO.o: src/VBO.cpp.o
+.PHONY : src/VBO.o
+
+# target to build an object file
+src/VBO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o
+.PHONY : src/VBO.cpp.o
+
+src/VBO.i: src/VBO.cpp.i
+.PHONY : src/VBO.i
+
+# target to preprocess a source file
+src/VBO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.i
+.PHONY : src/VBO.cpp.i
+
+src/VBO.s: src/VBO.cpp.s
+.PHONY : src/VBO.s
+
+# target to generate assembly for a file
+src/VBO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.s
+.PHONY : src/VBO.cpp.s
+
+src/glad.o: src/glad.c.o
+.PHONY : src/glad.o
+
+# target to build an object file
+src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/glad.c.o
+.PHONY : src/glad.c.o
+
+src/glad.i: src/glad.c.i
+.PHONY : src/glad.i
+
+# target to preprocess a source file
+src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/glad.c.i
+.PHONY : src/glad.c.i
+
+src/glad.s: src/glad.c.s
+.PHONY : src/glad.s
+
+# target to generate assembly for a file
+src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/glad.c.s
+.PHONY : src/glad.c.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +334,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,8 +342,56 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/shaderClass.o: src/shaderClass.cpp.o
+.PHONY : src/shaderClass.o
+
+# target to build an object file
+src/shaderClass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/shaderClass.cpp.o
+.PHONY : src/shaderClass.cpp.o
+
+src/shaderClass.i: src/shaderClass.cpp.i
+.PHONY : src/shaderClass.i
+
+# target to preprocess a source file
+src/shaderClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/shaderClass.cpp.i
+.PHONY : src/shaderClass.cpp.i
+
+src/shaderClass.s: src/shaderClass.cpp.s
+.PHONY : src/shaderClass.s
+
+# target to generate assembly for a file
+src/shaderClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/shaderClass.cpp.s
+.PHONY : src/shaderClass.cpp.s
+
+src/stb.o: src/stb.cpp.o
+.PHONY : src/stb.o
+
+# target to build an object file
+src/stb.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/stb.cpp.o
+.PHONY : src/stb.cpp.o
+
+src/stb.i: src/stb.cpp.i
+.PHONY : src/stb.i
+
+# target to preprocess a source file
+src/stb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/stb.cpp.i
+.PHONY : src/stb.cpp.i
+
+src/stb.s: src/stb.cpp.s
+.PHONY : src/stb.s
+
+# target to generate assembly for a file
+src/stb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/src/stb.cpp.s
+.PHONY : src/stb.cpp.s
 
 # Help Target
 help:
@@ -161,10 +401,40 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SkyAos"
+	@echo "... SKY_LANDS"
+	@echo "... src/Camera.o"
+	@echo "... src/Camera.i"
+	@echo "... src/Camera.s"
+	@echo "... src/EBO.o"
+	@echo "... src/EBO.i"
+	@echo "... src/EBO.s"
+	@echo "... src/Mesh.o"
+	@echo "... src/Mesh.i"
+	@echo "... src/Mesh.s"
+	@echo "... src/Model.o"
+	@echo "... src/Model.i"
+	@echo "... src/Model.s"
+	@echo "... src/Texture.o"
+	@echo "... src/Texture.i"
+	@echo "... src/Texture.s"
+	@echo "... src/VAO.o"
+	@echo "... src/VAO.i"
+	@echo "... src/VAO.s"
+	@echo "... src/VBO.o"
+	@echo "... src/VBO.i"
+	@echo "... src/VBO.s"
+	@echo "... src/glad.o"
+	@echo "... src/glad.i"
+	@echo "... src/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/shaderClass.o"
+	@echo "... src/shaderClass.i"
+	@echo "... src/shaderClass.s"
+	@echo "... src/stb.o"
+	@echo "... src/stb.i"
+	@echo "... src/stb.s"
 .PHONY : help
 
 

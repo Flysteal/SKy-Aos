@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/HeaderFiles
 
 CXX_FLAGS = -g -std=gnu++14
 

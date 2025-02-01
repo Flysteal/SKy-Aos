@@ -1,8 +1,68 @@
 [
 {
   "directory": "/home/fly/Desktop/SkyLands/build",
-  "command": "/usr/bin/c++   -g -std=gnu++14 -o CMakeFiles/SkyAos.dir/src/main.cpp.o -c /home/fly/Desktop/SkyLands/src/main.cpp",
+  "command": "/usr/bin/c++  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/Camera.cpp.o -c /home/fly/Desktop/SkyLands/src/Camera.cpp",
+  "file": "/home/fly/Desktop/SkyLands/src/Camera.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/Camera.cpp.o"
+},
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/c++  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o -c /home/fly/Desktop/SkyLands/src/EBO.cpp",
+  "file": "/home/fly/Desktop/SkyLands/src/EBO.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/EBO.cpp.o"
+},
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/c++  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/Mesh.cpp.o -c /home/fly/Desktop/SkyLands/src/Mesh.cpp",
+  "file": "/home/fly/Desktop/SkyLands/src/Mesh.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/Mesh.cpp.o"
+},
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/c++  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/Model.cpp.o -c /home/fly/Desktop/SkyLands/src/Model.cpp",
+  "file": "/home/fly/Desktop/SkyLands/src/Model.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/Model.cpp.o"
+},
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/c++  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.o -c /home/fly/Desktop/SkyLands/src/Texture.cpp",
+  "file": "/home/fly/Desktop/SkyLands/src/Texture.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/Texture.cpp.o"
+},
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/c++  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o -c /home/fly/Desktop/SkyLands/src/VAO.cpp",
+  "file": "/home/fly/Desktop/SkyLands/src/VAO.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/VAO.cpp.o"
+},
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/c++  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o -c /home/fly/Desktop/SkyLands/src/VBO.cpp",
+  "file": "/home/fly/Desktop/SkyLands/src/VBO.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/VBO.cpp.o"
+},
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/c++  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/main.cpp.o -c /home/fly/Desktop/SkyLands/src/main.cpp",
   "file": "/home/fly/Desktop/SkyLands/src/main.cpp",
-  "output": "CMakeFiles/SkyAos.dir/src/main.cpp.o"
+  "output": "CMakeFiles/SKY_LANDS.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/c++  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/shaderClass.cpp.o -c /home/fly/Desktop/SkyLands/src/shaderClass.cpp",
+  "file": "/home/fly/Desktop/SkyLands/src/shaderClass.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/shaderClass.cpp.o"
+},
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/c++  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -std=gnu++17 -o CMakeFiles/SKY_LANDS.dir/src/stb.cpp.o -c /home/fly/Desktop/SkyLands/src/stb.cpp",
+  "file": "/home/fly/Desktop/SkyLands/src/stb.cpp",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/stb.cpp.o"
+},
+{
+  "directory": "/home/fly/Desktop/SkyLands/build",
+  "command": "/usr/bin/cc  -I/home/fly/Desktop/SkyLands/include -I/home/fly/Desktop/SkyLands/hederfiles -g -o CMakeFiles/SKY_LANDS.dir/src/glad.c.o -c /home/fly/Desktop/SkyLands/src/glad.c",
+  "file": "/home/fly/Desktop/SkyLands/src/glad.c",
+  "output": "CMakeFiles/SKY_LANDS.dir/src/glad.c.o"
 }
 ]

@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/fly/Desktop/SkyLands/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/SkyAos.dir/all
+all: CMakeFiles/SKY_LANDS.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/SkyAos.dir/clean
+clean: CMakeFiles/SKY_LANDS.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SkyAos.dir
+# Target rules for target CMakeFiles/SKY_LANDS.dir
 
 # All Build rule for target.
-CMakeFiles/SkyAos.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/fly/Desktop/SkyLands/build/CMakeFiles --progress-num=1,2 "Built target SkyAos"
-.PHONY : CMakeFiles/SkyAos.dir/all
+CMakeFiles/SKY_LANDS.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/fly/Desktop/SkyLands/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target SKY_LANDS"
+.PHONY : CMakeFiles/SKY_LANDS.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SkyAos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fly/Desktop/SkyLands/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SkyAos.dir/all
+CMakeFiles/SKY_LANDS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fly/Desktop/SkyLands/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SKY_LANDS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fly/Desktop/SkyLands/build/CMakeFiles 0
-.PHONY : CMakeFiles/SkyAos.dir/rule
+.PHONY : CMakeFiles/SKY_LANDS.dir/rule
 
 # Convenience name for target.
-SkyAos: CMakeFiles/SkyAos.dir/rule
-.PHONY : SkyAos
+SKY_LANDS: CMakeFiles/SKY_LANDS.dir/rule
+.PHONY : SKY_LANDS
 
 # clean rule for target.
-CMakeFiles/SkyAos.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/clean
-.PHONY : CMakeFiles/SkyAos.dir/clean
+CMakeFiles/SKY_LANDS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SKY_LANDS.dir/build.make CMakeFiles/SKY_LANDS.dir/clean
+.PHONY : CMakeFiles/SKY_LANDS.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
