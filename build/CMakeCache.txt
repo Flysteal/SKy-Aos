@@ -147,7 +147,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Sky-Aos
+CMAKE_PROJECT_NAME:STATIC=SkyAos
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -237,6 +237,15 @@ Sky-Aos_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Sky-Aos_SOURCE_DIR:STATIC=/home/fly/Desktop/SkyLands
+
+//Value Computed by CMake
+SkyAos_BINARY_DIR:STATIC=/home/fly/Desktop/SkyLands/build
+
+//Value Computed by CMake
+SkyAos_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+SkyAos_SOURCE_DIR:STATIC=/home/fly/Desktop/SkyLands
 
 
 ########################

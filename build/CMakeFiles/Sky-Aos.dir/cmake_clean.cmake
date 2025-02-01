@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Sky-Aos.dir/Sky-Aos.cpp.o"
-  "CMakeFiles/Sky-Aos.dir/Sky-Aos.cpp.o.d"
-  "libSky-Aos.a"
-  "libSky-Aos.pdb"
+  "CMakeFiles/Sky-Aos.dir/src/main.cpp.o"
+  "CMakeFiles/Sky-Aos.dir/src/main.cpp.o.d"
+  "Sky-Aos"
+  "Sky-Aos.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

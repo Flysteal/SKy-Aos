@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Sky-Aos
+# Target rules for targets named SkyAos
 
 # Build rule for target.
-Sky-Aos: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sky-Aos
-.PHONY : Sky-Aos
+SkyAos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SkyAos
+.PHONY : SkyAos
 
 # fast build rule for target.
-Sky-Aos/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sky-Aos.dir/build.make CMakeFiles/Sky-Aos.dir/build
-.PHONY : Sky-Aos/fast
+SkyAos/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/build
+.PHONY : SkyAos/fast
 
-Sky-Aos.o: Sky-Aos.cpp.o
-.PHONY : Sky-Aos.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-Sky-Aos.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sky-Aos.dir/build.make CMakeFiles/Sky-Aos.dir/Sky-Aos.cpp.o
-.PHONY : Sky-Aos.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-Sky-Aos.i: Sky-Aos.cpp.i
-.PHONY : Sky-Aos.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-Sky-Aos.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sky-Aos.dir/build.make CMakeFiles/Sky-Aos.dir/Sky-Aos.cpp.i
-.PHONY : Sky-Aos.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-Sky-Aos.s: Sky-Aos.cpp.s
-.PHONY : Sky-Aos.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-Sky-Aos.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sky-Aos.dir/build.make CMakeFiles/Sky-Aos.dir/Sky-Aos.cpp.s
-.PHONY : Sky-Aos.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkyAos.dir/build.make CMakeFiles/SkyAos.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Sky-Aos"
-	@echo "... Sky-Aos.o"
-	@echo "... Sky-Aos.i"
-	@echo "... Sky-Aos.s"
+	@echo "... SkyAos"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

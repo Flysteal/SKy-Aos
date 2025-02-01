@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fly/Desktop/SkyLands/src/main.cpp" "CMakeFiles/Sky-Aos.dir/src/main.cpp.o" "gcc" "CMakeFiles/Sky-Aos.dir/src/main.cpp.o.d"
+  "/home/fly/Desktop/SkyLands/src/main.cpp" "CMakeFiles/SkyAos.dir/src/main.cpp.o" "gcc" "CMakeFiles/SkyAos.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

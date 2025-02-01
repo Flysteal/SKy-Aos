@@ -847,7 +847,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Sky-Aos"
+			"value" : "SkyAos"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1231,6 +1231,42 @@
 		},
 		{
 			"name" : "Sky-Aos_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/fly/Desktop/SkyLands"
+		},
+		{
+			"name" : "SkyAos_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/fly/Desktop/SkyLands/build"
+		},
+		{
+			"name" : "SkyAos_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "SkyAos_SOURCE_DIR",
 			"properties" : 
 			[
 				{

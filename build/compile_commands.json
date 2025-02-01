@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/fly/Desktop/SkyLands/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/Sky-Aos.dir/Sky-Aos.cpp.o -c /home/fly/Desktop/SkyLands/Sky-Aos.cpp",
-  "file": "/home/fly/Desktop/SkyLands/Sky-Aos.cpp",
-  "output": "CMakeFiles/Sky-Aos.dir/Sky-Aos.cpp.o"
+  "command": "/usr/bin/c++   -g -std=gnu++14 -o CMakeFiles/SkyAos.dir/src/main.cpp.o -c /home/fly/Desktop/SkyLands/src/main.cpp",
+  "file": "/home/fly/Desktop/SkyLands/src/main.cpp",
+  "output": "CMakeFiles/SkyAos.dir/src/main.cpp.o"
 }
 ]

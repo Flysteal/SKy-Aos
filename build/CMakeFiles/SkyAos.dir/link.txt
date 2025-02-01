@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/SkyAos.dir/src/main.cpp.o -o SkyAos
